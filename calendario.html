@@ -1,0 +1,69 @@
+<html> 
+<head> 
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/calendario.css">
+<link href="https://fonts.googleapis.com/css?family=Mukta+Vaani|Oxygen|Roboto" rel="stylesheet">
+<script language="JavaScript"> 
+function mueveReloj(){ 
+   	momentoActual = new Date() 
+   	hora = momentoActual.getHours() 
+   	minuto = momentoActual.getMinutes() 
+   	segundo = momentoActual.getSeconds() 
+
+   
+   	str_minuto = new String (minuto) 
+   	if (str_minuto.length == 1) 
+      	minuto = "0" + minuto 
+
+   	str_hora = new String (hora) 
+   	if (str_hora.length == 1) 
+      	hora = "0" + hora 
+
+   	horaImprimible = hora + " : " + minuto + " " 
+
+   	document.form_reloj.reloj.value = horaImprimible 
+
+   	setTimeout("mueveReloj()",1000) 
+} 
+</script> 
+</head> 
+
+<body onload="mueveReloj()"> 
+
+	
+	<div class="all-screen-calendar">
+		<div class="mes-actual">
+			<p>N O V I E M B R E</p>
+		</div>
+		<div class="item">
+			<p class="evento-izquierda">M I E R C O L E S    21</p>
+			<p class="evento-fecha">15 : 00</p>
+		</div>
+		<div class="item">
+			<p class="evento-izquierda">S A B A D O    24</p>
+			<p class="evento-fecha">09 : 00</p>
+		</div>
+		<div class="item">
+			<p class="evento-izquierda">V I E R N E S    30</p>
+			<p class="evento-fecha">20 : 00 </p>
+		</div>
+
+		<div class="reloj-fecha">
+			<center>
+			<form name="form_reloj"> 
+				<input class="reloj" type="text" name="reloj" onfocus="window.document.form_reloj.reloj.blur()"> 
+			</form> 
+            
+			<p class="fecha">
+			<script>
+			var meses = new Array ("ENERO ","FEBRERO ","MARZO ","ABRIL ","MAYO ","JUNIO ","JULIO","AGOSTO","SEPTIEMBRE ","OCTUBRE ","N O V I E M B R E    ","DICIEMBRE ");
+			var f=new Date();
+			document.write(meses[f.getMonth()]+ f.getDate());
+			</script>
+			</p>
+			</center>
+	     </div>	
+	</div>
+<img src="img/sol.gif" class="imagen-descriptiva">
+</body> 
+</html> 

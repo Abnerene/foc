@@ -6,8 +6,9 @@
  <link rel="stylesheet" type="text/css" href="css/main.css">
  <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
  <script type="text/javascript" src="script/anti-copy.js"></script>	
+ <script type="text/javascript" src="script/left-panel.js"></script>	
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta  name = " theme-color "  content = "#FFFFFF" >
+  <meta  name = "theme-color"  content = "#FFFFFF" >
  
   <meta  name = " HandheldFriendly "  content = " true " >
   <meta  name = " compatible con la aplicación web de apple-mobile "  content = " yes " >
@@ -17,31 +18,55 @@
   <link  rel = "apple-touch-startup-image"  href = " ./ProgramadorFitness.png" >
   <link  rel = "manifest"  href = "./manifest.json " >
 
-
 </head>
 <body>
+	
+   
+
+
 	<div class="all-screen">
+		<input type="checkbox"  class="ch-user" id="ch-usuario" onclick="check1(this)">
+	<input type="checkbox"  class="ch-search" id="ch-busqueda" onclick="check2(this)">
+	<input type="checkbox"  class="ch-calendar" id="ch-calendario" onclick="check3(this)">
+	<input type="checkbox"  class="ch-world" id="ch-mundo" onclick="check4(this)"> 
+	    <div class="user-content">   </div>
+	<div class="search-content">   </div>
+	<div class="calendar-content"> <iframe src="calendario.html" class="iframe-content"></iframe></div>
+    <div class="world-content"></div>
+
+     
 		<div id="top" class="top">
-			<div class="top-element"><img src="icons/user.png" class="icon-top"></div>
-			<div class="top-element"><img src="icons/search.png" class="icon-top"></div>
-			<div class="top-element"><img src="icons/calendar.png" class="icon-top"></div>
-			<div class="top-element"><img src="icons/world.png" class="icon-top"></div>
+			<div class="top-element"><label for="ch-usuario" onclick="check1(this)">
+				<img src="icons/user.png" class="icon-top" id="i2"></label></div>
+			<div class="top-element"><label for="ch-busqueda" onclick="check2(this)">
+				<img src="icons/search.png" class="icon-top" id="s3"></label></div>
+			<div class="top-element"><label for="ch-calendario" onclick="check3(this)">
+				<img src="icons/calendar.png" class="icon-top" id="g4"></label></div>
+			<div class="top-element"><label for="ch-mundo" onclick="check4(this)">
+				<img src="icons/world.png" class="icon-top"></label></div>
 			
 			
 
 		</div>
 		<div id="types-art" class="types-art" >
 			<div class="swipe-element">
-				<div class="types-title"><a href="musica.html"target="events"><label>Música</label></a></div>			
-				<div class="types-title"><a href="arte.html"target="events"><label>Arte</label></a></div> 
-				<div class="types-title"><a href="cine.html"target="events"><label>Cine</label></a></div> 
-				<div class="types-title"><a href="otros.html"target="events"><label>Otros</label></a></div> 
+				<div class="types-title"><a href="musica.html" target="events"><label>Música</label></a></div>			
+				<div class="types-title"><a href="arte.html" target="events"><label>Arte</label></a></div> 
+				<div class="types-title"><a href="cine.html" target="events"><label>Cine</label></a></div> 
+				<div class="types-title"><a href="otros.html" target="events"><label>Otros</label></a></div> 
 			</div>
 		</div>
 		<div id="events-cnt" class="events-cnt">
 			<iframe src="musica.html" class="content-iframe" frameborder="0" name="events"></iframe>
 		</div>
-	</div>	
+
+
+
+	  </div>
+     
+     
+       
+
 	 <script src="./script.js"></script>
 	<div style="display: none">
 </body>

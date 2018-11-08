@@ -1,0 +1,104 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	background-color: rgb(232,185,81);
+}
+
+.all-screen-calendar
+{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  
+  background-repeat:no-repeat; 
+  background-size:contain;
+  background-position:center;
+  z-index:2;
+}
+
+.mes-actual{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	height: 25%;
+	border-color: #F9F6F6;
+	border-bottom-style: solid;
+	border-radius: 1%;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 250%;
+
+}
+.mes-actual p{
+	margin-top: 20%;
+}
+.item
+{   display: inline-block;
+	position: relative;
+	width: 100%;
+	height: 15%;
+	border-color: #F9F6F6;
+	border-bottom-style: solid;
+	border-radius: 1%;
+}
+
+.reloj-fecha{
+	width: auto;
+	position: relative;
+	margin-top: 10%;
+	display: inline-grid;
+
+}
+.reloj
+{
+
+position:relative; 
+border: 0;
+background:transparent; 
+width: 70%;
+color : White; 
+font-family: 'Oxygen', sans-serif;
+font-size : 610% ; 
+text-align : center;
+}
+
+.fecha{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	text-align : center;
+	margin-top: 5%;
+	color: #F9F6F6;
+	font-size: 250%;
+}
+
+.evento-izquierda
+{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	text-align : left;
+	margin-top: 11%;
+	margin-left: 5%;
+	color: #F9F6F6;
+	font-size: 210%;
+	position: relative;
+	
+}
+
+.evento-fecha{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	text-align : right;
+	margin-top: -7%;
+	margin-right: 8%;
+	color: #F9F6F6;
+	font-size: 210%;
+	position: relative;
+}
+
+.imagen-descriptiva{
+    margin-top:64%;
+    margin-left: 30%;
+	position: relative;
+	display: inline-flex;
+}
