@@ -1,0 +1,99 @@
+body,html{
+
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.full-screen-inicio
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.element-post{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding: 4%;
+}
+
+.element-post2{
+	position: relative;
+	display: flex;
+	width: 100%;
+	padding: 4%;
+}
+
+.element-post-right{
+	position: relative;
+	display: flex;
+	width: 100%;
+	padding: 8%;
+	left: 40%;
+}
+
+
+
+.img-post{
+	width: 90%;
+}
+
+.img-post2{
+	width: 50%;
+}
+
+.text-post{
+	font-family: 'Oswald', sans-serif;
+	font-size: 250%;
+
+}
+.text2-post
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 200%;
+	margin-top:-4%;
+	color: gray; 
+}
+
+.div-text{
+   display: inline-block;
+   width: 100%;
+}
+.text-post2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 250%;
+	margin-left: 6%;
+
+}
+.text2-post2
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 200%;
+	color: gray; 
+	margin-top: -4%;
+	margin-left: 6%;
+}
+
+.div-text-right{
+   display: inline-block;
+   width: 100%;
+   left: -400%;
+   margin-left: -80%;
+}
+
+.text-post2-right{
+	font-family: 'Oswald', sans-serif;
+	font-size: 250%;
+}
+
+.text2-post2-right
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 200%;
+	color: gray; 
+	margin-top: -4%;
+}
