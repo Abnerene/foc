@@ -2,6 +2,8 @@ body,html{
 	padding: 0;
 	margin: 0;
 	overflow-x: hidden;
+	background-color:white;
+
 }
 
 a{
@@ -189,7 +191,7 @@ a:hover{
   width: 100%;
  
 }
-.ch-user:checked ~ .top{
+.ch-user:checked ~ .top,body{
  background-color: gray;
 }
  
@@ -198,14 +200,14 @@ a:hover{
   width: 100%;
 }
 
-.ch-search:checked ~ .top{
+.ch-search:checked ~ .top,body{
  background-color: white;
 }
  
 .ch-calendar:checked ~ .calendar-content{
   width: 100%;  
 }
-.ch-calendar:checked ~ .top{
+.ch-calendar:checked ~ .top,body{
  background-color:  rgb(41,45,48);
 }
 
@@ -214,7 +216,7 @@ a:hover{
   width: 100%; 
 }
 
-.ch-world:checked ~ .top{
+.ch-world:checked ~ .top,body{
  background-color: green;
 }
 
