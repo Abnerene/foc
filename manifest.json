@@ -3,7 +3,7 @@
   "short_name": "FOC",
   "description": "Música,Arte,Cine,Arquitectura:)",
   "background_color": "#FFFFFF",
-  "theme_color": "#FFFFFF",
+  "theme_color": "auto",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
