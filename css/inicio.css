@@ -19,6 +19,8 @@ body,html{
 	display: inline-block;
 	width: 100%;
 	padding: 4%;
+	transition: visibility 0.4s;
+	transition: padding 0.4s;
 }
 
 .element-post2{
@@ -39,7 +41,8 @@ body,html{
 
 
 .img-post{
-	width: 90%;
+	width: 92%;
+	transition: width 0.4s;
 }
 
 .img-post2{
@@ -49,6 +52,8 @@ body,html{
 .text-post{
 	font-family: 'Oswald', sans-serif;
 	font-size: 250%;
+	transition: margin 0.4s;
+
 
 }
 .text2-post
@@ -57,6 +62,7 @@ body,html{
 	font-size: 200%;
 	margin-top:-4%;
 	color: gray; 
+	transition: margin 0.4s;
 }
 
 .div-text{
@@ -96,4 +102,136 @@ body,html{
 	font-size: 200%;
 	color: gray; 
 	margin-top: -4%;
+}
+
+
+.descripcion{
+	background-color: white;
+	width: 100%;
+	height: 0%;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	transition: height s;
+	
+}
+.c1, .c2, .c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10{
+	display: none;
+}
+
+/* elemento c1*/
+
+.c1:checked ~ .element-post div.descripcion{
+	background-color: blue;
+	position: absolute;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
+
+
+
+.c1:checked ~ .element-post img {
+	width: 100%;
+}
+.c1:checked ~ .element-post p.text-post {
+	margin-left: 10%;
+	font-size: 410%;	
+}
+.c1:checked ~ .element-post p.text2-post {
+	margin-left: 10%;
+	font-size: 200%;	
+}
+
+.c1:checked ~ .element-post{
+	padding:0; 
+	height: 100%;
+	position: absolute;
+}
+.c1:checked ~ #c2{
+	visibility: none;
+	display: none;
+
+}
+.c1:checked ~ #c3{
+	display: none;
+}
+.c1:checked ~ #c4{
+	display: none;
+}
+.c1:checked ~ #c5{
+	display: none;
+}
+.c1:checked ~ #c6{
+	display: none;
+}
+.c1:checked ~ #c7{
+	display: none;
+}
+.c1:checked ~ #c8{
+	display: none;
+}
+.c1:checked ~ #c9{
+	display: none;
+}
+.c1:checked ~ #c10{
+	display: none;
+}
+
+/*elemento c2*/
+
+.c2:checked ~ .element-post div.descripcion{
+	background-color: blue;
+	position: absolute;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
+
+
+.c2:checked ~ .element-post img {
+	width: 100%;
+}
+.c2:checked ~ .element-post p.text-post {
+	margin-left: 10%;
+	font-size: 410%;	
+}
+.c2:checked ~ .element-post p.text2-post {
+	margin-left: 10%;
+	font-size: 200%;	
+}
+
+.c2:checked ~ .element-post{
+	padding:0; 
+	height: 100%;
+	position: absolute;
+}
+.c2:checked ~ #c1{
+	visibility: none;
+	display: none;
+
+}
+.c2:checked ~ #c3{
+	display: none;
+}
+.c2:checked ~ #c4{
+	display: none;
+}
+.c2:checked ~ #c5{
+	display: none;
+}
+.c2:checked ~ #c6{
+	display: none;
+}
+.c2:checked ~ #c7{
+	display: none;
+}
+.c2:checked ~ #c8{
+	display: none;
+}
+.c2:checked ~ #c9{
+	display: none;
+}
+.c2:checked ~ #c10{
+	display: none;
 }
