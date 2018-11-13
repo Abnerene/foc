@@ -5,7 +5,7 @@
       if (box.checked) {
             $('body, html').animate({
                   scrollTop: '0px'
-            }, 800);
+            }, 600);
       }
  
       }
@@ -16,7 +16,7 @@
       if (box.checked) {
             $('body, html').animate({
                   scrollTop: '0px'
-            }, 800);
+            }, 600);
       }
  
       }
@@ -27,7 +27,7 @@
       if (box.checked) {
             $('body, html').animate({
                   scrollTop: '0px'
-            }, 800);
+            }, 600);
       }
  
       }
