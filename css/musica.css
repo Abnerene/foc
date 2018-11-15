@@ -1,0 +1,676 @@
+body,html{
+
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.full-screen-inicio
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.element-post{
+	position: relative;
+	display: inline-block;
+	width: 42%;
+	padding-top: 4vh;
+	padding-left: 6vw;
+	transition: visibility 0.8s;
+	transition: padding 0.8s;
+}
+
+.element-post2{
+	position: relative;
+	display: flex;
+	width: 100%;
+	padding: 4%;
+}
+
+.element-post-right{
+	position: relative;
+	display: flex;
+	width: 100%;
+	padding: 8%;
+	left: 40%;
+}
+
+|
+
+.img-post{
+	width: 92%;
+	transition: width 0.6s;
+}
+
+.img-post2{
+	width: 50%;
+}
+
+.text-post{
+	font-family: 'Oswald', sans-serif;
+	font-size: 250%;
+	transition: margin 0.6s;
+
+
+}
+.text2-post
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 200%;
+	margin-top:-4%;
+	color: gray; 
+	transition: margin 0.6s;
+}
+
+.div-text{
+   display: inline-block;
+   width: 100%;
+}
+.text-post2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 250%;
+	margin-left: 6%;
+
+}
+.text2-post2
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 200%;
+	color: gray; 
+	margin-top: -4%;
+	margin-left: 6%;
+}
+
+.div-text-right{
+   display: inline-block;
+   width: 100%;
+   left: -400%;
+   margin-left: -80%;
+}
+
+.text-post2-right{
+	font-family: 'Oswald', sans-serif;
+	font-size: 250%;
+}
+
+.text2-post2-right
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 200%;
+	color: gray; 
+	margin-top: -4%;
+}
+
+
+.descripcion{
+	background-color: blue;
+	width: 85%;
+	height: 4%;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	margin-left: 0%;
+	transition: height .6s linear;
+	z-index: 2;
+	display: none;
+	
+}
+
+
+.c1, .c2, .c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10{
+	display: none;
+}
+
+/* elemento c1*/
+
+
+.c1:active ~ .element-post img {
+	width: 80%;
+	padding: 0;
+}
+
+.c1:active ~ #c1{
+	position: fixed;
+	display: grid;
+	z-index: 4;
+	width: 100vw;
+	margin-left: 9vw;
+    margin-top: 15%;
+    padding: 0;
+
+}
+
+
+.c1:active ~ #c2{
+   filter: blur(60px);
+
+}
+.c1:active ~ #c3{
+   filter: blur(60px);
+
+}
+.c1:active ~ #c4{
+   filter: blur(60px);
+
+}
+.c1:active ~ #c5{
+   filter: blur(60px);
+
+}
+.c1:active ~ #c6{
+   filter: blur(60px);
+
+}
+.c1:active ~ #c7{
+   filter: blur(60px);
+
+}
+.c1:active ~ #c8{
+   filter: blur(60px);
+
+}
+.c1:active ~ #c9{
+   filter: blur(60px);
+
+}
+.c1:active ~ #c10{
+   filter: blur(60px);
+
+}
+
+/*Elemento 2*/
+.c2:active ~ .element-post img {
+	width: 80%;
+	padding: 0%
+}
+
+.c2:active ~ #c2{
+	position: fixed;
+	display: grid;
+	z-index: 4;
+	width: 100vw;
+    margin-top: -58% !important;
+    margin-left: 9vw;
+    padding: 0;
+    
+}
+
+
+
+.c2:active ~ #c1{
+   filter: blur(60px);
+
+}
+.c2:active ~ #c3{
+   filter: blur(60px);
+
+}
+.c2:active ~ #c4{
+   filter: blur(60px);
+
+}
+.c2:active ~ #c5{
+   filter: blur(60px);
+
+}
+.c2:active ~ #c6{
+   filter: blur(60px);
+
+}
+.c2:active ~ #c7{
+   filter: blur(60px);
+
+}
+.c2:active ~ #c8{
+   filter: blur(60px);
+
+}
+.c2:active ~ #c9{
+   filter: blur(60px);
+
+}
+.c2:active ~ #c10{
+   filter: blur(60px);
+
+}
+
+/*Elemento 3*/
+.c3:active ~ .element-post img {
+	width: 80%;
+}
+
+.c3:active ~ #c3{
+	position: fixed;
+	display: grid;
+	z-index: 4;
+	width: 100vw;
+    margin-top: -60%;
+    margin-left: 9vw;
+    padding: 0;
+    
+
+}
+
+.c3:active ~ #c1{
+   filter: blur(60px);
+
+}
+.c3:active ~ #c2{
+   filter: blur(60px);
+
+}
+.c3:active ~ #c4{
+   filter: blur(60px);
+
+}
+.c3:active ~ #c5{
+   filter: blur(60px);
+
+}
+.c3:active ~ #c6{
+   filter: blur(60px);
+
+}
+.c3:active ~ #c7{
+   filter: blur(60px);
+
+}
+.c3:active ~ #c8{
+   filter: blur(60px);
+
+}
+.c3:active ~ #c9{
+   filter: blur(60px);
+
+}
+.c3:active ~ #c10{
+   filter: blur(60px);
+
+}
+
+/*Elemento 3*/
+.c4:active ~ .element-post img {
+	width: 80%;
+	padding: 0;
+}
+
+.c4:active ~ #c4{
+	position: fixed;
+	display: grid;
+	z-index: 4;
+	width: 100vw;
+    margin-top: -140%;
+    margin-left: 9vw;
+    padding: 0;
+    
+
+}
+
+.c4:active ~ #c1{
+   filter: blur(60px);
+
+}
+.c4:active ~ #c2{
+   filter: blur(60px);
+
+}
+.c4:active ~ #c3{
+   filter: blur(60px);
+
+}
+.c4:active ~ #c5{
+   filter: blur(60px);
+
+}
+.c4:active ~ #c6{
+   filter: blur(60px);
+
+}
+.c4:active ~ #c7{
+   filter: blur(60px);
+
+}
+.c4:active ~ #c8{
+   filter: blur(60px);
+
+}
+.c4:active ~ #c9{
+   filter: blur(60px);
+
+}
+.c4:active ~ #c10{
+   filter: blur(60px);
+
+}
+
+
+/*Elemento 5*/
+.c5:active ~ .element-post img {
+	width: 80%;
+}
+
+.c5:active ~ #c5{
+	position: fixed;
+	display: grid;
+	z-index: 4;
+	width: 100vw;
+    margin-top: -140%;
+    margin-left: 9vw;
+    padding: 0;
+    
+
+}
+
+.c5:active ~ #c1{
+   filter: blur(60px);
+
+}
+.c5:active ~ #c2{
+   filter: blur(60px);
+
+}
+.c5:active ~ #c3{
+   filter: blur(60px);
+
+}
+.c5:active ~ #c4{
+   filter: blur(60px);
+
+}
+.c5:active ~ #c6{
+   filter: blur(60px);
+
+}
+.c5:active ~ #c7{
+   filter: blur(60px);
+
+}
+.c5:active ~ #c8{
+   filter: blur(60px);
+
+}
+.c5:active ~ #c9{
+   filter: blur(60px);
+
+}
+.c5:active ~ #c10{
+   filter: blur(60px);
+
+}
+
+
+
+/*Elemento 6*/
+.c6:active ~ .element-post img {
+	width: 80%;
+}
+
+.c6:active ~ #c6{
+	position: fixed;
+	display: grid;
+	z-index: 4;
+	width: 100vw;
+    margin-left: 9vw;
+    margin-top: -215%;
+    padding: 0;
+    
+}
+
+.c6:active ~ #c1{
+   filter: blur(60px);
+
+}
+.c6:active ~ #c2{
+   filter: blur(60px);
+
+}
+.c6:active ~ #c3{
+   filter: blur(60px);
+
+}
+.c6:active ~ #c4{
+   filter: blur(60px);
+
+}
+.c6:active ~ #c5{
+   filter: blur(60px);
+
+}
+.c6:active ~ #c7{
+   filter: blur(60px);
+
+}
+.c6:active ~ #c8{
+   filter: blur(60px);
+
+}
+.c6:active ~ #c9{
+   filter: blur(60px);
+
+}
+.c6:active ~ #c10{
+   filter: blur(60px);
+
+}
+
+
+/*Elemento 7*/
+.c7:active ~ .element-post img {
+	width: 80%;
+}
+
+.c7:active ~ #c7{
+	position: fixed;
+	display: grid;
+	z-index: 4;
+	width: 100vw;
+    margin-left: 9vw;
+    margin-top: -215%;
+    padding: 0;
+    
+}
+
+.c7:active ~ #c1{
+   filter: blur(60px);
+
+}
+.c7:active ~ #c2{
+   filter: blur(60px);
+
+}
+.c7:active ~ #c3{
+   filter: blur(60px);
+
+}
+.c7:active ~ #c4{
+   filter: blur(60px);
+
+}
+.c7:active ~ #c5{
+   filter: blur(60px);
+
+}
+.c7:active ~ #c6{
+   filter: blur(60px);
+
+}
+.c7:active ~ #c8{
+   filter: blur(60px);
+
+}
+.c7:active ~ #c9{
+   filter: blur(60px);
+
+}
+.c7:active ~ #c10{
+   filter: blur(60px);
+
+}
+
+
+/*Elemento 8*/
+.c8:active ~ .element-post img {
+	width: 80%;
+}
+
+.c8:active ~ #c8{
+	position: fixed;
+	display: grid;
+	z-index: 4;
+	width: 100vw;
+    margin-left: 9vw;
+    margin-top: -300%;
+    padding: 0;
+    
+}
+
+.c8:active ~ #c1{
+   filter: blur(60px);
+
+}
+.c8:active ~ #c2{
+   filter: blur(60px);
+
+}
+.c8:active ~ #c3{
+   filter: blur(60px);
+
+}
+.c8:active ~ #c4{
+   filter: blur(60px);
+
+}
+.c8:active ~ #c5{
+   filter: blur(60px);
+
+}
+.c8:active ~ #c6{
+   filter: blur(60px);
+
+}
+.c8:active ~ #c7{
+   filter: blur(60px);
+
+}
+.c8:active ~ #c9{
+   filter: blur(60px);
+
+}
+.c8:active ~ #c10{
+   filter: blur(60px);
+
+}
+
+
+
+/*Elemento 9*/
+.c9:active ~ .element-post img {
+	width: 80%;
+}
+
+.c9:active ~ #c9{
+	position: fixed;
+	display: grid;
+	z-index: 4;
+	width: 100vw;
+    margin-left: 9vw;
+    margin-top: -300%;
+    padding: 0;
+    
+}
+
+.c9:active ~ #c1{
+   filter: blur(60px);
+
+}
+.c9:active ~ #c2{
+   filter: blur(60px);
+
+}
+.c9:active ~ #c3{
+   filter: blur(60px);
+
+}
+.c9:active ~ #c4{
+   filter: blur(60px);
+
+}
+.c9:active ~ #c5{
+   filter: blur(60px);
+
+}
+.c9:active ~ #c6{
+   filter: blur(60px);
+
+}
+.c9:active ~ #c7{
+   filter: blur(60px);
+
+}
+.c9:active ~ #c8{
+   filter: blur(60px);
+
+}
+.c9:active ~ #c10{
+   filter: blur(60px);
+
+}
+
+
+/*Elemento 10*/
+.c10:active ~ .element-post img {
+	width: 80%;
+}
+
+.c10:active ~ #c10{
+	position: fixed;
+	display: grid;
+	z-index: 4;
+	width: 100vw;
+    margin-left: 9vw;
+    margin-top: -380%;
+    padding: 0;
+    
+}
+
+.c10:active ~ #c1{
+   filter: blur(60px);
+
+}
+.c10:active ~ #c2{
+   filter: blur(60px);
+
+}
+.c10:active ~ #c3{
+   filter: blur(60px);
+
+}
+.c10:active ~ #c4{
+   filter: blur(60px);
+
+}
+.c10:active ~ #c5{
+   filter: blur(60px);
+
+}
+.c10:active ~ #c6{
+   filter: blur(60px);
+
+}
+.c10:active ~ #c7{
+   filter: blur(60px);
+
+}
+.c10:active ~ #c8{
+   filter: blur(60px);
+
+}
+.c10:active ~ #c9{
+   filter: blur(60px);
+
+}
