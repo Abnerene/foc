@@ -22,14 +22,21 @@ body,html{
 	padding-top: 4vh;
 	padding-left: 6vw;
 	
+	
 }
 
-.element-post2{
-	position: relative;
-	display: flex;
-	width: 100%;
-	padding: 4%;
+.text-content{
+	border-style: solid;
+	border-color: white;
+	background-color: white;
+	padding: 0;
+	margin-top: -1%;
+	width: 90%;
+	display: none;
+
 }
+
+
 
 .element-post-right{
 	position: relative;
@@ -132,6 +139,11 @@ body,html{
 	width: 80%;
 	padding: 0;
 }
+.c1:active ~ .element-post .text-content {
+	width: 79.1%;
+	background-color: white;
+	display: inherit;
+}
 
 .c1:active ~ #c1{
 	position: fixed;
@@ -146,19 +158,19 @@ body,html{
 
 
 .c1:active ~ #c2{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c1:active ~ #c3{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c1:active ~ #c4{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c1:active ~ #c5{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 
@@ -176,29 +188,33 @@ body,html{
     margin-top: -58% ;
     margin-left: 9vw;
     padding: 0;
-    
 }
 
+.c2:active ~ .element-post .text-content {
+	width: 79.1%;
+	background-color: white;
+	display: inherit;
+}
 
 
 .c2:active ~ #c1{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c2:active ~ #c3{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c2:active ~ #c4{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c2:active ~ #c5{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c2:active ~ #c6{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 
@@ -217,12 +233,16 @@ body,html{
     margin-top: -60%;
     margin-left: 9vw;
     padding: 0;
-    
+}
 
+.c3:active ~ .element-post .text-content {
+	width: 79.1%;
+	background-color: white;
+	display: inherit;
 }
 
 .c3:active ~ #c1{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c3:active ~ #c2{
@@ -230,19 +250,19 @@ body,html{
 
 }
 .c3:active ~ #c4{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c3:active ~ #c5{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c3:active ~ #c6{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c3:active ~ #c7{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 
@@ -260,32 +280,36 @@ body,html{
     margin-top: -140%;
     margin-left: 9vw;
     padding: 0;
-    
+}
 
+.c4:active ~ .element-post .text-content {
+	width: 79.1%;
+	background-color: white;
+	display: inherit;
 }
 
 .c4:active ~ #c1{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c4:active ~ #c2{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c4:active ~ #c3{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c4:active ~ #c5{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c4:active ~ #c6{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c4:active ~ #c7{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 
@@ -305,34 +329,36 @@ body,html{
     margin-top: -140%;
     margin-left: 9vw;
     padding: 0;
-    
-
 }
 
-
+.c5:active ~ .element-post .text-content {
+	width: 79.1%;
+	background-color: white;
+	display: inherit;
+}
 
 .c5:active ~ #c3{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c5:active ~ #c4{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c5:active ~ #c6{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c5:active ~ #c7{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c5:active ~ #c8{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c5:active ~ #c9{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 
@@ -351,33 +377,37 @@ body,html{
 	width: 100vw;
     margin-left: 9vw;
     margin-top: -215%;
-    padding: 0;
-    
+    padding: 0;    
 }
 
+.c6:active ~ .element-post .text-content {
+	width: 79.1%;
+	background-color: white;
+	display: inherit;
+}
 
 .c6:active ~ #c3{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c6:active ~ #c4{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c6:active ~ #c5{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c6:active ~ #c7{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c6:active ~ #c8{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c6:active ~ #c9{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 
@@ -396,29 +426,32 @@ body,html{
     margin-left: 9vw;
     margin-top: -215%;
     padding: 0;
-    
 }
 
-
+.c7:active ~ .element-post .text-content {
+	width: 79.1%;
+	background-color: white;
+	display: inherit;
+}
 
 .c7:active ~ #c5{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c7:active ~ #c6{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c7:active ~ #c8{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c7:active ~ #c9{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c7:active ~ #c10{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 
@@ -435,30 +468,33 @@ body,html{
 	width: 100vw;
     margin-left: 9vw;
     margin-top: -300%;
-    padding: 0;
-    
+    padding: 0;    
 }
 
-
+.c8:active ~ .element-post .text-content {
+	width: 79.1%;
+	background-color: white;
+	display: inherit;
+}
 
 .c8:active ~ #c5{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c8:active ~ #c6{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c8:active ~ #c7{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c8:active ~ #c9{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c8:active ~ #c10{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 
@@ -476,22 +512,25 @@ body,html{
 	width: 100vw;
     margin-left: 9vw;
     margin-top: -300%;
-    padding: 0;
-    
+    padding: 0;    
 }
 
-
+.c9:active ~ .element-post .text-content {
+	width: 79.1%;
+	background-color: white;
+	display: inherit;
+}
 
 .c9:active ~ #c7{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c9:active ~ #c8{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c9:active ~ #c10{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 
@@ -508,20 +547,23 @@ body,html{
 	width: 100vw;
     margin-left: 9vw;
     margin-top: -380%;
-    padding: 0;
-    
+    padding: 0;    
 }
 
-
+.c10:active ~ .element-post .text-content {
+	width: 79.1%;
+	background-color: white;
+	display: inherit;
+}
 .c10:active ~ #c7{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c10:active ~ #c8{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }
 .c10:active ~ #c9{
-   filter: blur(60px);
+   filter: blur(50px);
 
 }

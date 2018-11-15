@@ -115,6 +115,7 @@ a:hover{
   border-bottom: 3%;
   border-bottom-color: black;
   shape-outside: 0;
+  padding-bottom: -2%;
   
  }
 
@@ -159,7 +160,7 @@ a:hover{
 	background-color: white;
 	width: 0%;
 	height: 94%;
-	margin-top: 13.5%;
+	margin-top: 15.5%;
 	z-index: 30;
 	transition: width .3s;
 
@@ -240,10 +241,44 @@ a:hover{
 	display: grid;
 	position: fixed;
 	margin-top: 95vh;
-	transition: margin-top 0.6s;
+	
 	 -webkit-transition: all 0.5s ease-out;
  -moz-transition: all 0.5s ease;
  -ms-transition: all 0.5s ease;
+}
+.fecha{
+	width: 100vw;
+	position: absolute;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 300%;
+	margin-left: 0;
+	text-align: center;
+	margin-top: 48vh;
+}
+.nombre{
+	width: 100vw;
+	position: absolute;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 400%;
+	margin-left: 0;
+	text-align: center;
+	margin-top: 9vh;
+}
+.hora{
+	width: 100vw;
+	position: absolute;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 410%;
+	margin-left: 0;
+	text-align: center;
+	margin-top: 52vh;
+}
+
+
+.fast-pass-element img{
+	width: 59vw;
+	margin-left: 20vw;
+	margin-top: 16vh;
 }
 
 .fast-icon{
@@ -253,12 +288,12 @@ a:hover{
 
 .fast-pass-element{
 	width: 100vw;
-	height: 100vh;
+	height: 101vh;
 	background-color: white;
 	position: fixed;
 	display: grid;
 	z-index: 9;
-	margin-top: 100vh;
+	margin-top: 101vh;
 	transition: margin-top .6s;
 }
 .ch-fast-pass:checked ~ .fast-pass-element{
@@ -266,8 +301,8 @@ a:hover{
 }
 
 .ch-fast-pass:checked ~ .fast-pass{
-    margin-top: 10vh;
-    -webkit-transform: rotate(-180deg);
+  
+ -webkit-transform: rotate(-180deg);
  -moz-transform: rotate(-180deg);
  -ms-transform: rotate(-180deg);
  transform: rotate(-180deg);

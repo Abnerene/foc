@@ -19,40 +19,50 @@ body,html{
 	display: inline-block;
 	width: 100%;
 	padding: 4%;
-	transition: visibility 0.4s;
-	transition: padding 0.4s;
+	transition: visibility 0.8s;
+	transition: padding 0.8s;
 }
 
 .element-post2{
 	position: relative;
 	display: flex;
-	width: 100%;
+	width: 100vw;
 	padding: 4%;
+	z-index: 4;
 }
+
+.element-post2 img{
+	width: 40vw;
+	padding: 0;
+
+}
+
 
 .element-post-right{
 	position: relative;
 	display: flex;
-	width: 100%;
+	width: 100vw;
 	padding: 8%;
 	left: 40%;
+	transition: left 0.6s;
 }
 
 
 
 .img-post{
 	width: 92%;
-	transition: width 0.4s;
+	transition: width 0.6s;
 }
 
 .img-post2{
 	width: 50%;
+	transition: width 0.6s;
 }
 
 .text-post{
 	font-family: 'Oswald', sans-serif;
 	font-size: 250%;
-	transition: margin 0.4s;
+	transition: margin 0.6s;
 
 
 }
@@ -62,17 +72,22 @@ body,html{
 	font-size: 200%;
 	margin-top:-4%;
 	color: gray; 
-	transition: margin 0.4s;
+	transition: margin 0.6s;
 }
 
 .div-text{
    display: inline-block;
-   width: 100%;
+   position: absolute;
+   width: 40vw;
+   
+   margin-left: 40vw;
+   margin-top: -30vh;
+   transition: width 0.6s;
 }
 .text-post2{
 	font-family: 'Oswald', sans-serif;
 	font-size: 250%;
-	margin-left: 6%;
+	margin-left: 6vw;
 
 }
 .text2-post2
@@ -81,14 +96,15 @@ body,html{
 	font-size: 200%;
 	color: gray; 
 	margin-top: -4%;
-	margin-left: 6%;
+	margin-left: 6vw;
 }
 
 .div-text-right{
-   display: inline-block;
-   width: 100%;
-   left: -400%;
-   margin-left: -80%;
+	display: inline-block;
+   position: absolute;
+   width: 100vw;
+   margin-left: -40vw;
+   margin-top: -30vh;
 }
 
 .text-post2-right{
@@ -106,16 +122,20 @@ body,html{
 
 
 .descripcion{
-	background-color: white;
-	width: 100%;
-	height: 0%;
+	background-color: blue;
+	width: 85%;
+	height: 4%;
 	position: absolute;
 	padding: 0;
 	margin: 0;
-	transition: height s;
+	margin-left: 0%;
+	transition: height .6s linear;
+	z-index: 1;
 	
 }
-.c1, .c2, .c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10{
+
+
+.c1, .c2, .c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10, .c11{
 	display: none;
 }
 
@@ -124,6 +144,7 @@ body,html{
 .c1:checked ~ .element-post div.descripcion{
 	background-color: blue;
 	position: absolute;
+	width: 100%;
 	height: 100%;
 	z-index: 2;
 	display: initial;
@@ -177,17 +198,29 @@ body,html{
 .c1:checked ~ #c10{
 	display: none;
 }
+.c1:checked ~ #c11{
+	display: none;
 
+}
 /*elemento c2*/
 
 .c2:checked ~ .element-post div.descripcion{
 	background-color: blue;
 	position: absolute;
+	width: 100%;
 	height: 100%;
 	z-index: 2;
 	display: initial;
 }
 
+.c2:checked ~ .element-post2 {
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
 
 .c2:checked ~ .element-post img {
 	width: 100%;
@@ -234,4 +267,635 @@ body,html{
 }
 .c2:checked ~ #c10{
 	display: none;
+}
+.c2:checked ~ #c11{
+	display: none;
+}
+
+/*elemento 3*/
+
+.c3:checked ~ .element-post2 div.descripcion{
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
+
+.c3:checked ~ .element-post2 div.div-text{
+     position:initial;
+     display: inline-block;
+     margin-left: 0vw;
+     margin-top: 0vh;
+     width: 100vw;
+}
+
+
+
+.c3:checked ~ .element-post2 img {
+	width: 100%;
+}
+.c3:checked ~ .element-post2 p.text-post2 {
+	margin-left: 10%;
+	font-size: 410%;	
+}
+.c3:checked ~ .element-post2 p.text2-post2 {
+	margin-left: 10%;
+	font-size: 200%;	
+}
+
+.c3:checked ~ .element-post2{
+	padding:0; 
+	height: 100%;
+	position: absolute;
+	position: relative;
+	display: inline-block;
+}
+.c3:checked ~ #c1{
+	visibility: none;
+	display: none;
+
+}
+.c3:checked ~ #c2{
+	display: none;
+}
+.c3:checked ~ #c4{
+	display: none;
+}
+.c3:checked ~ #c5{
+	display: none;
+}
+.c3:checked ~ #c6{
+	display: none;
+}
+.c3:checked ~ #c7{
+	display: none;
+}
+.c3:checked ~ #c8{
+	display: none;
+}
+.c3:checked ~ #c9{
+	display: none;
+}
+.c3:checked ~ #c10{
+	display: none;
+}
+.c3:checked ~ #c11{
+	display: none;
+}
+
+/* elemento c4*/
+
+.c4:checked ~ .element-post div.descripcion{
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
+
+
+
+.c4:checked ~ .element-post img {
+	width: 100%;
+}
+.c4:checked ~ .element-post p.text-post {
+	margin-left: 10%;
+	font-size: 410%;	
+}
+.c4:checked ~ .element-post p.text2-post {
+	margin-left: 10%;
+	font-size: 200%;	
+}
+
+.c4:checked ~ .element-post{
+	padding:0; 
+	height: 100%;
+	position: absolute;
+}
+.c4:checked ~ #c1{
+	
+	display: none;
+}
+
+.c4:checked ~ #c2{
+	display: none;
+}
+.c4:checked ~ #c3{
+	display: none;
+}
+.c4:checked ~ #c5{
+	display: none;
+}
+.c4:checked ~ #c6{
+	display: none;
+}
+.c4:checked ~ #c7{
+	display: none;
+}
+.c4:checked ~ #c8{
+	display: none;
+}
+.c4:checked ~ #c9{
+	display: none;
+}
+.c4:checked ~ #c10{
+	display: none;
+}
+.c4:checked ~ #c11{
+	display: none;
+}
+
+
+/*elemento 5*/
+
+.c5:checked ~ .element-post-right div.descripcion{
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
+
+.c5:checked ~ .element-post-right div.div-text-right{
+     position:initial;
+     display: inline-block;
+     margin-left: 0vw;
+     margin-top: 0vh;
+     width: 100vw;
+}
+
+
+.c5:checked ~ .element-post-right img {
+	width: 100%;
+}
+.c5:checked ~ .element-post-right p.text-post2-right {
+	margin-left: 10%;
+	font-size: 410%;	
+}
+.c5:checked ~ .element-post-right p.text2-post2-right {
+	margin-left: 10%;
+	font-size: 200%;	
+}
+
+.c5:checked ~ .element-post-right{
+	padding:0; 
+	width: 100vw;
+	height: 100%;
+	position: absolute;
+	position: relative;
+	display: inline-block;
+	left: 0;
+}
+.c5:checked ~ #c1{
+	visibility: none;
+	display: none;
+
+}
+.c5:checked ~ #c2{
+	display: none;
+}
+.c5:checked ~ #c3{
+	display: none;
+}
+.c5:checked ~ #c4{
+	display: none;
+}
+.c5:checked ~ #c6{
+	display: none;
+}
+.c5:checked ~ #c7{
+	display: none;
+}
+.c5:checked ~ #c8{
+	display: none;
+}
+.c5:checked ~ #c9{
+	display: none;
+}
+.c5:checked ~ #c10{
+	display: none;
+}
+.c5:checked ~ #c11{
+	display: none;
+}
+
+/* elemento c6*/
+
+.c6:checked ~ .element-post div.descripcion{
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+	margin-top: 2vh;
+}
+
+.c6:checked ~ .element-post video{
+	width: 100%;
+	height: 100%;
+	margin-top: -32vh;
+	margin-left: 0;
+	padding: 0;	
+}
+
+.c6:checked ~ .element-post p.text-post {
+	margin-left: 10%;
+	font-size: 410%;
+	margin-top: -27vh;	
+}
+.c6:checked ~ .element-post p.text2-post {
+	margin-left: 10%;
+	font-size: 200%;
+	margin-top: -3.3vh;	
+
+}
+
+.c6:checked ~ .element-post{
+	padding:0; 
+	height: 100%;
+	position: absolute;
+}
+.c6:checked ~ #c1{
+	visibility: none;
+	display: none;
+
+}
+.c6:checked ~ #c2{
+	display: none;
+}
+.c6:checked ~ #c3{
+	display: none;
+}
+.c6:checked ~ #c4{
+	display: none;
+}
+.c6:checked ~ #c5{
+	display: none;
+}
+.c6:checked ~ #c11{
+	display: none;
+}
+.c6:checked ~ #c7{
+	display: none;
+}
+.c6:checked ~ #c8{
+	display: none;
+}
+.c6:checked ~ #c9{
+	display: none;
+}
+.c6:checked ~ #c10{
+	display: none;
+}
+
+/*elemento c7*/
+
+.c7:checked ~ .element-post div.descripcion{
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
+
+.c7:checked ~ .element-post2 {
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
+
+.c7:checked ~ .element-post img {
+	width: 100%;
+}
+.c7:checked ~ .element-post p.text-post {
+	margin-left: 10%;
+	font-size: 410%;	
+}
+.c7:checked ~ .element-post p.text2-post {
+	margin-left: 10%;
+	font-size: 200%;	
+}
+
+.c7:checked ~ .element-post{
+	padding:0; 
+	height: 100%;
+	position: absolute;
+}
+.c7:checked ~ #c1{
+	visibility: none;
+	display: none;
+
+}
+.c7:checked ~ #c3{
+	display: none;
+}
+.c7:checked ~ #c4{
+	display: none;
+}
+.c7:checked ~ #c5{
+	display: none;
+}
+.c7:checked ~ #c6{
+	display: none;
+}
+.c7:checked ~ #c2{
+	display: none;
+}
+.c7:checked ~ #c8{
+	display: none;
+}
+.c7:checked ~ #c9{
+	display: none;
+}
+.c7:checked ~ #c10{
+	display: none;
+}
+.c7:checked ~ #c11{
+	display: none;
+}
+
+
+/*elemento 8*/
+
+.c8:checked ~ .element-post2 div.descripcion{
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
+
+.c8:checked ~ .element-post2 div.div-text{
+     position:initial;
+     display: inline-block;
+     margin-left: 0vw;
+     margin-top: 0vh;
+     width: 100vw;
+}
+
+
+
+.c8:checked ~ .element-post2 img {
+	width: 100%;
+}
+.c8:checked ~ .element-post2 p.text-post2 {
+	margin-left: 10%;
+	font-size: 410%;	
+}
+.c8:checked ~ .element-post2 p.text2-post2 {
+	margin-left: 10%;
+	font-size: 200%;	
+}
+
+.c8:checked ~ .element-post2{
+	padding:0; 
+	height: 100%;
+	position: absolute;
+	position: relative;
+	display: inline-block;
+}
+.c8:checked ~ #c1{
+	visibility: none;
+	display: none;
+
+}
+.c8:checked ~ #c2{
+	display: none;
+}
+.c8:checked ~ #c4{
+	display: none;
+}
+.c8:checked ~ #c5{
+	display: none;
+}
+.c8:checked ~ #c6{
+	display: none;
+}
+.c8:checked ~ #c7{
+	display: none;
+}
+.c8:checked ~ #c3{
+	display: none;
+}
+.c8:checked ~ #c9{
+	display: none;
+}
+.c8:checked ~ #c10{
+	display: none;
+}
+.c8:checked ~ #c11{
+	display: none;
+}
+
+
+/*elemento 9*/
+
+.c9:checked ~ .element-post-right div.descripcion{
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
+
+.c9:checked ~ .element-post-right div.div-text-right{
+     position:initial;
+     display: inline-block;
+     margin-left: 0vw;
+     margin-top: 0vh;
+     width: 100vw;
+}
+
+
+.c9:checked ~ .element-post-right img {
+	width: 100%;
+}
+.c9:checked ~ .element-post-right p.text-post2-right {
+	margin-left: 10%;
+	font-size: 410%;	
+}
+.c9:checked ~ .element-post-right p.text2-post2-right {
+	margin-left: 10%;
+	font-size: 200%;	
+}
+
+.c9:checked ~ .element-post-right{
+	padding:0; 
+	width: 100vw;
+	height: 100%;
+	position: absolute;
+	position: relative;
+	display: inline-block;
+	left: 0;
+}
+.c9:checked ~ #c1{
+	visibility: none;
+	display: none;
+
+}
+.c9:checked ~ #c2{
+	display: none;
+}
+.c9:checked ~ #c3{
+	display: none;
+}
+.c9:checked ~ #c4{
+	display: none;
+}
+.c9:checked ~ #c6{
+	display: none;
+}
+.c9:checked ~ #c7{
+	display: none;
+}
+.c9:checked ~ #c8{
+	display: none;
+}
+.c9:checked ~ #c5{
+	display: none;
+}
+.c9:checked ~ #c10{
+	display: none;
+}
+.c9:checked ~ #c11{
+	display: none;
+}
+
+/* elemento c10*/
+
+.c10:checked ~ .element-post div.descripcion{
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
+
+
+
+.c10:checked ~ .element-post img {
+	width: 100%;
+}
+.c10:checked ~ .element-post p.text-post {
+	margin-left: 10%;
+	font-size: 410%;	
+}
+.c10:checked ~ .element-post p.text2-post {
+	margin-left: 10%;
+	font-size: 200%;	
+}
+
+.c10:checked ~ .element-post{
+	padding:0; 
+	height: 100%;
+	position: absolute;
+}
+.c10:checked ~ #c2{
+	visibility: none;
+	display: none;
+
+}
+.c10:checked ~ #c3{
+	display: none;
+}
+.c10:checked ~ #c4{
+	display: none;
+}
+.c10:checked ~ #c5{
+	display: none;
+}
+.c10:checked ~ #c6{
+	display: none;
+}
+.c10:checked ~ #c7{
+	display: none;
+}
+.c10:checked ~ #c8{
+	display: none;
+}
+.c10:checked ~ #c9{
+	display: none;
+}
+.c10:checked ~ #c1{
+	display: none;
+}
+.c10:checked ~ #c11{
+	display: none;
+
+}
+
+/* elemento c11*/
+
+.c11:checked ~ .element-post div.descripcion{
+	background-color: blue;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: initial;
+}
+
+
+
+.c11:checked ~ .element-post img {
+	width: 100%;
+}
+.c11:checked ~ .element-post p.text-post {
+	margin-left: 10%;
+	font-size: 410%;	
+}
+.c11:checked ~ .element-post p.text2-post {
+	margin-left: 10%;
+	font-size: 200%;	
+}
+
+.c11:checked ~ .element-post{
+	padding:0; 
+	height: 100%;
+	position: absolute;
+}
+.c11:checked ~ #c2{
+	visibility: none;
+	display: none;
+
+}
+.c11:checked ~ #c3{
+	display: none;
+}
+.c11:checked ~ #c4{
+	display: none;
+}
+.c11:checked ~ #c5{
+	display: none;
+}
+.c11:checked ~ #c6{
+	display: none;
+}
+.c11:checked ~ #c7{
+	display: none;
+}
+.c11:checked ~ #c8{
+	display: none;
+}
+.c11:checked ~ #c9{
+	display: none;
+}
+.c11:checked ~ #c1{
+	display: none;
+}
+.c11:checked ~ #c10{
+	display: none;
+
 }
