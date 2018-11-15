@@ -227,3 +227,19 @@ a:hover{
 .ch-user:checked ~ .user-content div.user-settings{
  display: inherit;
 }
+
+
+.fast-pass{
+	width: 100vw;
+	height: auto;
+	background-color: transparent;
+	z-index: 10;
+	display: grid;
+	position: fixed;
+	margin-top: 87vh;
+}
+
+.fast-icon{
+	width: 8vw;
+	margin-left: 46vw;
+}
