@@ -228,6 +228,9 @@ a:hover{
  display: inherit;
 }
 
+.ch-fast-pass{
+	display: none;
+}
 
 .fast-pass{
 	width: 100vw;
@@ -236,10 +239,37 @@ a:hover{
 	z-index: 10;
 	display: grid;
 	position: fixed;
-	margin-top: 87vh;
+	margin-top: 95vh;
+	transition: margin-top 0.6s;
+	 -webkit-transition: all 0.5s ease-out;
+ -moz-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
 }
 
 .fast-icon{
 	width: 8vw;
 	margin-left: 46vw;
 }
+
+.fast-pass-element{
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+	position: fixed;
+	display: grid;
+	z-index: 9;
+	margin-top: 100vh;
+	transition: margin-top .6s;
+}
+.ch-fast-pass:checked ~ .fast-pass-element{
+    margin-top: 0vh;
+}
+
+.ch-fast-pass:checked ~ .fast-pass{
+    margin-top: 10vh;
+    -webkit-transform: rotate(-180deg);
+ -moz-transform: rotate(-180deg);
+ -ms-transform: rotate(-180deg);
+ transform: rotate(-180deg);
+}
+
