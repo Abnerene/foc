@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FDI</title>
+	<title>FOC</title>
  <meta charset="utf-8">
  <link rel="stylesheet" type="text/css" href="css/main.css">
- <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:700" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:500|Roboto+Condensed" rel="stylesheet">
  <script type="text/javascript" src="script/anti-copy.js"></script>	
  <script type="text/javascript" src="script/left-panel.js"></script>	
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -21,20 +21,27 @@
 </head>
 <body>
 	
-   <script type="text/javascript">
-document.oncontextmenu = function(){return false;}
-</script>
+   
 
 
 	<div class="all-screen">
-		<input type="checkbox"  class="ch-user" id="ch-usuario" onclick="check1(this)">
+	<input type="checkbox"  class="ch-user" id="ch-usuario" onclick="check1(this)">
 	<input type="checkbox"  class="ch-search" id="ch-busqueda" onclick="check2(this)">
 	<input type="checkbox"  class="ch-calendar" id="ch-calendario" onclick="check3(this)">
 	<input type="checkbox"  class="ch-world" id="ch-mundo" onclick="check4(this)"> 
-	<div class="user-content">   </div>
+	<div class="user-content">  
+		<div class="user-settings">
+			<div id="setting-user-info" class="setting"><p>Perfil</p></div>
+			<div id="setting-card" class="setting"><p>Tarjetas</p></div>
+			<div id="setting-not" class="setting"><p>Notificaciones</p></div>
+			<div id="setting-theme" class="setting"><p>Tema Nocturno</p></div>
+			<div id="setting-info" class="setting"><p>Ayuda</p></div>
+			<div id=settting-terms"" class="setting"><p>Terminos y condiciones</p></div>
+		</div>
+	</div>
 	<div class="search-content">  <iframe src="buscador.html" class="iframe-content"></iframe> </div>
 	<div class="calendar-content"> <iframe src="calendario.html" class="iframe-content"></iframe></div>
-    <div class="world-content"></div>
+    <div class="world-content"><iframe src="mapa.html" class="iframe-content"></iframe></div>
 
      
 		<div id="top" class="top">
@@ -64,12 +71,10 @@ document.oncontextmenu = function(){return false;}
 
 
 
+
 	  </div>
      
-     
-       
-
-	 <script src="./script.js"></script>
+     <script src="./script.js"></script>
 	<div style="display: none">
 </body>
 </html>
