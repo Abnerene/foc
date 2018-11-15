@@ -161,14 +161,6 @@ body,html{
    filter: blur(60px);
 
 }
-.c1:active ~ #c6{
-   filter: blur(60px);
-
-}
-.c1:active ~ #c7{
-   filter: blur(60px);
-
-}
 
 /*Elemento 2*/
 .c2:active ~ .element-post img {
@@ -209,10 +201,7 @@ body,html{
    filter: blur(60px);
 
 }
-.c2:active ~ #c7{
-   filter: blur(60px);
 
-}
 
 
 /*Elemento 3*/
@@ -253,14 +242,6 @@ body,html{
 
 }
 .c3:active ~ #c7{
-   filter: blur(60px);
-
-}
-.c3:active ~ #c8{
-   filter: blur(60px);
-
-}
-.c3:active ~ #c9{
    filter: blur(60px);
 
 }
@@ -307,14 +288,7 @@ body,html{
    filter: blur(60px);
 
 }
-.c4:active ~ #c8{
-   filter: blur(60px);
 
-}
-.c4:active ~ #c9{
-   filter: blur(60px);
-
-}
 
 
 
@@ -336,10 +310,7 @@ body,html{
 }
 
 
-.c5:active ~ #c2{
-   filter: blur(60px);
 
-}
 .c5:active ~ #c3{
    filter: blur(60px);
 
@@ -364,10 +335,7 @@ body,html{
    filter: blur(60px);
 
 }
-.c5:active ~ #c10{
-   filter: blur(60px);
 
-}
 
 
 
@@ -412,10 +380,7 @@ body,html{
    filter: blur(60px);
 
 }
-.c6:active ~ #c10{
-   filter: blur(60px);
 
-}
 
 
 /*Elemento 7*/
@@ -435,10 +400,7 @@ body,html{
 }
 
 
-.c7:active ~ #c4{
-   filter: blur(60px);
 
-}
 .c7:active ~ #c5{
    filter: blur(60px);
 
@@ -478,10 +440,7 @@ body,html{
 }
 
 
-.c8:active ~ #c4{
-   filter: blur(60px);
 
-}
 .c8:active ~ #c5{
    filter: blur(60px);
 
@@ -522,14 +481,7 @@ body,html{
 }
 
 
-.c9:active ~ #c5{
-   filter: blur(60px);
 
-}
-.c9:active ~ #c6{
-   filter: blur(60px);
-
-}
 .c9:active ~ #c7{
    filter: blur(60px);
 
@@ -560,30 +512,7 @@ body,html{
     
 }
 
-.c10:active ~ #c1{
-   filter: blur(60px);
 
-}
-.c10:active ~ #c2{
-   filter: blur(60px);
-
-}
-.c10:active ~ #c3{
-   filter: blur(60px);
-
-}
-.c10:active ~ #c4{
-   filter: blur(60px);
-
-}
-.c10:active ~ #c5{
-   filter: blur(60px);
-
-}
-.c10:active ~ #c6{
-   filter: blur(60px);
-
-}
 .c10:active ~ #c7{
    filter: blur(60px);
 
