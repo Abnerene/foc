@@ -7,9 +7,9 @@
             document.getElementById("ch-calendario").checked=false;
             document.getElementById("ch-mundo").checked=false;
             document.getElementById("u1").src ="icons/user_s.png";
-            document.getElementById("s1").src ="icons/search_w.png";
-            document.getElementById("c1").src ="icons/calendar_w.png";
-            document.getElementById("w1").src ="icons/world_w.png";
+            document.getElementById("s1").src ="icons/search.png";
+            document.getElementById("c1").src ="icons/calendar.png";
+            document.getElementById("w1").src ="icons/world.png";
 
       }
       else{
