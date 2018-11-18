@@ -127,6 +127,7 @@ body,html{
 	height: 4%;
 	position: absolute;
 	padding: 0;
+	padding-bottom: 12%;
 	margin: 0;
 	margin-left: 0%;
 	transition: height .6s linear;
@@ -904,9 +905,42 @@ body,html{
 
 
 .description-content{
-	width: 100%;
+	text-align: left;
 	padding: 4%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 250%;
+}
 
+.b-buy{
+	font-size: 130%;
+	font-family: 'Oswald', sans-serif;
+	padding: 3%;
+	padding-left: 7%;
+	padding-right: 7%;
+	background-color: rgb(241,243,244);
+	border-radius: 40px 40px 40px 40px;
+	-moz-border-radius: 40px 40px 40px 40px;
+	-webkit-border-radius: 40px 40px 40px 40px;
+	border: 0px solid #000000;
+	outline: none;
+	outline-style: none;
+	outline-color: none;
+	shape-outside: none;
+	border-style: none;
+	margin-left: 30vw;
+}
+.b-buy:focus{
+	background-color: #16a085;
+	font-color:white;
+	outline: none;
+	outline-style: none;
+	outline-color: none;
+	shape-outside: none;
+	border-style: outset;
+	border: 0px solid #000000;
+	-webkit-box-shadow: -200px -200px 0px -200px rgba(0,0,0,0.75);
+	-moz-box-shadow: -200px -200px 0px -200px rgba(0,0,0,0.75);
+	box-shadow: -200px -200px 0px -200px rgba(0,0,0,0.75);
+
+    
 }
