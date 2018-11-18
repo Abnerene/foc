@@ -8,7 +8,7 @@
  <script type="text/javascript" src="script/anti-copy.js"></script>	
  <script type="text/javascript" src="script/left-panel.js"></script>	
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta  name = "theme-color"  content = "auto" >
+  <meta  name = "theme-color"  content = "#F9F9F9" >
  
   <meta  name = " HandheldFriendly "  content = " true " >
   <meta  name = " compatible con la aplicación web de apple-mobile "  content = " yes " >
@@ -30,17 +30,24 @@
 	<input type="checkbox"  class="ch-calendar" id="ch-calendario" onclick="check3(this)">
 	<input type="checkbox"  class="ch-world" id="ch-mundo" onclick="check4(this)"> 
 	<input type="checkbox"  class="ch-fast-pass" id="ch-pase"> 
-    <div class="fast-pass"><label for="ch-pase"><img src="icons/arrow2-up.png" class="fast-icon"></label></div>
+	<input type="checkbox"  class="chs-perfil" id="ch-perfil"> 
+	
+	<div class="fast-pass"><label for="ch-pase"><img src="icons/arrow2-up.png" class="fast-icon"></label></div>
     <div class="fast-pass-element">
     	<div class="fecha"><p>Miercoles 21 Nov </p></div>
     	<div class="nombre"><p>Abner Rene Barrios Santos</p></div>
     	<div class="hora"><p>15:00</p></div>
     	<img src="img/qr/qr.png" ></div>
+     <iframe src="setting/perfil.html" class="setting-iframe" name="setting-content"></iframe>
+
+	<label for="ch-perfil" class="label-perfil"><img src="icons/arrow2-up.png" class="back-perfil"></label>
+	
+	
 	<div class="user-content">  
-
-
+    
 		<div class="user-settings">
-			<div id="setting-user-info" class="setting"><p>Perfil</p></div>
+
+			<div id="setting-user-info" class="setting"><label for="ch-perfil"><p>Perfil</p></label></div>
 			<div id="setting-card" class="setting"><p>Tarjetas</p></div>
 			<div id="setting-not" class="setting"><p>Notificaciones</p></div>
 			<div id="setting-theme" class="setting"><p>Tema Nocturno</p></div>
@@ -68,10 +75,10 @@
 		</div>
 		<div id="types-art" class="types-art" >
 			<div class="swipe-element">
-				<div class="types-title"><a href="inicio.html" target="events"><label>Inicio</label></a></div>			
-				<div class="types-title"><a href="musica.html" target="events"><label>Música</label></a></div> 
-				<div class="types-title"><a href="cine.html" target="events"><label>Arte</label></a></div> 
-				<div class="types-title"><a href="otros.html" target="events"><label>Otros</label></a></div> 
+				<div class="types-title" id="inicio"><a href="inicio.html" target="events"><label>Inicio</label></a></div>			
+				<div class="types-title" id="musica"><a href="musica.html" target="events"><label>Música</label></a></div> 
+				<div class="types-title" id="arte"><a href="cine.html" target="events"><label>Arte</label></a></div> 
+				<div class="types-title" id="otros"><a href="otros.html" target="events"><label>Otros</label></a></div> 
 			</div>
 		</div>
 		<div id="events-cnt" class="events-cnt">
