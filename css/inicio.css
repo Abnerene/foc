@@ -911,6 +911,21 @@ body,html{
 	font-size: 250%;
 }
 
+.back-post{
+	margin-top: -19%;
+	position: absolute;
+	  width: 8vw !important;
+	 -webkit-transform: rotate(-90deg);
+	 -moz-transform: rotate(-90deg);
+	 -ms-transform: rotate(-90deg);
+	 transform: rotate(-90deg);	
+}
+
+.font-fecha{
+	font-weight: bold;
+}
+
+
 .b-buy{
 	font-size: 130%;
 	font-family: 'Oswald', sans-serif;
@@ -943,4 +958,25 @@ body,html{
 	box-shadow: -200px -200px 0px -200px rgba(0,0,0,0.75);
 
     
+}
+
+.like{
+	width: 10vw !important;
+	position: absolute;
+	margin-left: 80%;
+	margin-top: -19%;
+	
+	
+}
+
+.cb-like{
+	display: ;
+}
+
+.like:hover{
+	background-image: url("../icons/heart_s.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 10vw;
+
 }
