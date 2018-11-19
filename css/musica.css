@@ -146,11 +146,21 @@ border: 0px solid #000000;
 }
 
 
-.c1:active ~ .element-post{
+.c1:active ~ #c2{
    filter: blur(50px);
 }
 
+.c1:active ~ #c3{
+   filter: blur(50px);
+}
 
+.c1:active ~ #c4{
+   filter: blur(50px);
+}
+
+.c1:active ~ #c5{
+   filter: blur(50px);
+}
 
 /*elementos checked------------------------*/
 /*elemento 1*/
