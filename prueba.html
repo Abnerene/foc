@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/prueba.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            //detectar scroll hacia abajo
+            var obj = $(document);          //objeto sobre el que quiero detectar scroll
+            var obj_top = obj.scrollTop()   //scroll vertical inicial del objeto
+            var x=0;
+            obj.scroll(function(){
+                var obj_act_top = $(this).scrollTop();  //obtener scroll top instantaneo
+                if(obj_act_top > obj_top){
+                    
+                    x=x+1;
+                    
+                   
+                    document.getElementById("cajita").style.height = x + '%'
+
+                    
+                }else{
+                    //scroll hacia arriba
+                    
+                    x=x-x;
+                    document.getElementById("cajita").style.height = x + '%'
+
+                    
+                }
+                obj_top = obj_act_top;                  //almacenar scroll top anterior
+            });
+        });
+    </script>
+    <title>Test</title>
+    <style type="text/css">
+    <!--
+        body{
+            height:3000px;
+        }
+    -->
+    </style>
+</head>
+<body>
+    <p>&nbsp;</p>
+    <div class="caja" id="cajita"></div>
+</body>
+</html>
