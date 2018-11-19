@@ -1,9 +1,152 @@
+body,html
+{
+	margin: 0;
+	padding: 0;
+}
+
+label
+{
+	display: none;
+}
+input
+{
+	display: none;
+}
+
+p
+{
+	display: none;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background: #ddd;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #444;
+    cursor: pointer;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(150,150,150,0.8);
+    cursor: pointer;
+}
+
+.full-screen-alternativa{ 
+	display: inherit;
+ }
+
+.full-screen-inicio
+{
+	display: none ;
+}
+
+
+.alternativa-inicio{
+	
+	width: 100%;
+	height: 50%;
+}
+
+.alternativa-musica{
+	width: 100%;
+	height: 50%;
+}
+.alternativa-arte{
+	width: 100%;
+	height: 50%;
+}
+.alternativa-otro{
+	width: 100%;
+	height: 50%;
+}
+
+.alternativa-album{
+	width: 100%;
+	height: 100%;
+	padding-left: 1%; 
+	
+}
+
+.alternativa-post{
+	width: 16%;
+	height: 3%;
+	display: inline-block;
+	padding: .9%;
+	margin: 0;
+	transition: width .6s;
+	}
+
+.alternativa-post img{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	border-radius: 35px 35px 35px 35px;
+	-moz-border-radius: 35px 35px 35px 35px;
+	-webkit-border-radius: 35px 35px 35px 35px;
+	border: 0px solid #000000;
+}
+
+
+.alternativa-post:hover  {
+	width: 19%;
+}
+
+.alternativa-titulo{
+	font-family: 'Roboto', sans-serif;
+	font-size: 250%;
+	margin-left: 10%;
+	display: inherit !important;
+
+}
+.alternativa-post p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 120%;
+	text-align: center;
+	display: inherit !important;
+}
+
+
+
+@media only screen and (max-width: 1000px) 
+{
+
 body,html{
 
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
 }
+
+label{
+	display: inline;
+}
+p{
+	display: inline-block;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background: #ddd;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #444;
+    cursor: pointer;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(150,150,150,0.8);
+    cursor: pointer;
+}
+
+
+
+.full-screen-alternativa
+{ 
+	display: none;
+ }
 
 .full-screen-inicio
 {
@@ -12,6 +155,7 @@ body,html{
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	display: inherit;
 }
 
 .element-post{
@@ -944,6 +1088,7 @@ body,html{
 	border-style: none;
 	margin-left: 30vw;
 }
+
 .b-buy:focus{
 	background-color: #16a085;
 	font-color:white;
@@ -964,19 +1109,18 @@ body,html{
 	width: 10vw !important;
 	position: absolute;
 	margin-left: 80%;
-	margin-top: -19%;
-	
+	margin-top: -19%;	
 	
 }
 
-.cb-like{
-	display: ;
-}
+
 
 .like:hover{
 	background-image: url("../icons/heart_s.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 10vw;
+
+}
 
 }
