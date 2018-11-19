@@ -147,15 +147,15 @@ border: 0px solid #000000;
 
 
 .c1:active ~ #c2{
-   filter: blur(50px);
+   filter: blur(45px);
 }
 
 .c1:active ~ #c3{
-   filter: blur(50px);
+   filter: blur(45px);
 }
 
 .c1:active ~ #c4{
-   filter: blur(50px);
+   filter: blur(45px);
 }
 
 .c1:active ~ #c5{
