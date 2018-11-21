@@ -244,6 +244,7 @@ a:hover{
 	height: 10%;
 	background-color: rgb(241,243,244);	
 	transition: background-color 0.4s linear ;
+	z-index: 10;
 }
 
 
@@ -417,7 +418,7 @@ img#w1-w{
   width: 100%;
  
 }
-.ch-user:checked ~ .top, body{
+.ch-user:checked ~ .top{
  background-color:  rgb(255,255,255);
 }
  
@@ -426,10 +427,14 @@ img#w1-w{
   width: 100%;
 }
 
-.ch-search:checked ~ .top, body{
+.ch-search:checked ~ .top{
  background-color: white;
 }
- 
+
+.ch-search:checked ~ .types-art{
+ display: none;
+}
+  
 .ch-calendar:checked ~ .calendar-content{
   width: 100%;  
 }
