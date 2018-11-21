@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="/js/lib/dummy.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+  <style type="text/css">
+    input, section{
+    width: 25em;
+}
+
+section{
+    border: none;
+    margin: 1em 3.5em;
+}
+
+div{
+    border-bottom: .1em lightgray solid;
+    height: 5em;
+    cursor: pointer;
+    display: none;
+}
+
+div:hover{
+    background: whitesmoke;
+}
+
+div:last-child{
+    border: 0;
+}
+
+div span{
+    position: absolute;
+    margin: 1.75em 0 0 1em;
+    color: darkblue;
+    font-family: Verdana;
+}
+
+img{
+    width: 7em;
+    height: 5em;
+}
+  </style>
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">
+
+ 
+    function buscar(){
+      
+/**
+ * @author: Alexis López Espinoza
+ */
+
+var search = document.getElementById("search"),
+    food = document.getElementsByTagName("span"),
+    forEach = Array.prototype.forEach;
+
+search.addEventListener("search", function(e){
+    var choice = this.value;
+  
+    forEach.call(food, function(f){
+        if (f.innerHTML.toLowerCase().search(choice.toLowerCase()) == -1)
+            f.parentNode.style.display = "none";        
+        else
+            f.parentNode.style.display = "block";        
+    });
+}, false);
+
+    }
+
+</script>
+
+</head>
+<body>
+  <label for = "search">Choose your lunch name of below list:</label>
+<input type = "search" id = "search" placeholder = "Your choice" oninput="buscar()" />
+<section>
+    <div>
+        <img src = "http://images.media-allrecipes.com/userphotos/960x960/3757193.jpg" />
+        <span>Lentils with rice</span>
+    </div>
+    <div>
+        <img src = "http://www.todohuertoyjardin.es/blog/wp-content/uploads/2014/02/cultivo-espinacas-huerto.jpg" />
+        <span>Spinach salad</span>
+    </div>
+    <div>
+        <img src = "http://blogs.20minutos.es/yaestaellistoquetodolosabe/files/2012/07/Por-qu%C3%A9-se-llama-macedonia-al-postre-compuesto-de-varias-frutas.jpg" />
+        <span>Fruits salad</span>
+    </div>
+    <div>
+        <img src = "http://www.regmurcia.com/servlet/integra.servlets.Imagenes?METHOD=VERIMAGEN_95203&nombre=plato-presentado_res_300.jpg" />
+        <span>Wheat stew</span>
+    </div>
+    <div>
+        <img src = "http://file.answcdn.com/answ-cld/image/upload/w_768,h_298,c_fill,g_face:center,q_60,f_jpg/v1/tk/view/getty/soups-and-stews/c75b9a7f/158794010.jpg" />
+        <span>Stew with tomatoes</span>
+    </div>
+</section>
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "8p4Vr"
+      }], "*")
+    }
+  </script>
+</body>
+</html>

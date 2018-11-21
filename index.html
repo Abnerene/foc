@@ -5,15 +5,17 @@
  <meta charset="utf-8">
  <link rel="stylesheet" type="text/css" href="css/main.css">
  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto:400|Roboto+Condensed" rel="stylesheet">
+ <link  rel = "icon"  type = "image/png"  href = "img/icon_512.png" >
+
  <script type="text/javascript" src="script/anti-copy.js"></script>	
  <script type="text/javascript" src="script/left-panel.js"></script>	
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta  name = " HandheldFriendly "  content = " true " >
   <meta  name = " compatible con la aplicación web de apple-mobile "  content = " yes " >
   <meta  name = " apple-mobile-web-app-status-bar-style "  content = " black-translucent " >
-  <link  rel = "icono de acceso directo"  type = " image / png "  href = " ./img/ProgramadorFitness.png " >
+ 
   <link  rel = " apple-touch-icon "  href = " ./ProgramadorFitness.png " >
-  <link  rel = "apple-touch-startup-image"  href = " ./ProgramadorFitness.png" >
+  <link  rel = "apple-touch-startup-image"  href = "" >
   <link  rel = "manifest"  href = "./manifest.json " >
 
 </head>
@@ -23,6 +25,8 @@
 
 
 	<div class="all-screen">
+
+
 	<input type="checkbox"  class="ch-user" id="ch-usuario" onclick="check1(this)">
 	<input type="checkbox"  class="ch-search" id="ch-busqueda" onclick="check2(this)">
 	<input type="checkbox"  class="ch-calendar" id="ch-calendario" onclick="check3(this)">
@@ -30,6 +34,7 @@
 	<input type="checkbox"  class="ch-fast-pass" id="ch-pase"> 
 	<input type="checkbox"  class="chs-perfil" id="ch-perfil"> 
 	<input type="checkbox"  class="chs-foc" id="ch-foc"> 
+
 	    <label for="ch-foc"><img src="img/icon_512.png" class="foc-icon"></label>
     
     	<label for="ch-calendario" onclick="">
@@ -41,11 +46,20 @@
 			
 	<div class="b-buscador"><input type="search" name="" class="i-buscador" value="......."></div>
 	<div class="fast-pass"><label for="ch-pase"><img src="icons/arrow2-up.png" class="fast-icon"></label></div>
+   
+	
+
+
     <div class="fast-pass-element">
     	<div class="fecha"><p>Miercoles 21 Nov </p></div>
     	<div class="nombre"><p>Abner Rene Barrios Santos</p></div>
-    	<div class="hora"><p>15:00</p></div>
-    	<img src="img/qr/qr.png" ></div>
+    	<div class="hora"><p>20:00 hrs</p></div>
+    	<img src="img/qr/qr.png" >
+    	<div class="evento"><p>DREAM YOUR LIFE</p></div>
+    	<div class="e-lugar"><p>Citi Banamex</p></div>
+    	<div class="e-place"><p>Asiento TS-2C</p></div>
+    </div>
+
      <iframe src="setting/perfil.html" class="setting-iframe" name="setting-content"></iframe>
 
    	<label for="ch-perfil" class="label-perfil"><img src="icons/arrow2-up.png" class="back-perfil"></label>
@@ -56,6 +70,8 @@
 		<div class="user-settings">
 
 			<div id="setting-user-info" class="setting"><label for="ch-perfil"><p>Perfil</p></label></div>
+			<div id="setting-history" class="setting"><p>Historial</p></div>
+			<div id="setting-history" class="setting"><p>Favoritos</p></div>
 			<div id="setting-card" class="setting"><p>Tarjetas</p></div>
 			<div id="setting-not" class="setting"><p>Notificaciones</p></div>
 			<div id="setting-theme" class="setting"><p>Tema Nocturno</p></div>
