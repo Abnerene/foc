@@ -2,12 +2,355 @@
 <html>
 <head>
  <link rel="stylesheet" type="text/css" href="css/buscador.css">
+ <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+   <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script type="text/javascript" src="/js/lib/dummy.js"></script>
 </head>
+
+<script type="text/javascript">
+
+ 
+    function buscar(){
+      
+var search = document.getElementById("search"),
+    food = document.getElementsByTagName("span"),
+    forEach = Array.prototype.forEach;
+
+search.addEventListener("search", function(e){
+    var choice = this.value;
+  
+    forEach.call(food, function(f){
+        if (f.innerHTML.toLowerCase().search(choice.toLowerCase()) == -1)
+        {
+            f.parentNode.style.display = "none";  
+            
+        }
+
+        else{
+            f.parentNode.style.display = "inline-block";        
+        }
+    });
+}, false);
+
+    }
+
+</script>
+
+
 <body>
   <div class="all-screen-buscador">
-  	<center>
-  	<div class="div-busqueda"><input type="textbox" name="buscador" class="buscador"></div>
-   </center>
+  	
+  	
+<section>
+	<center>
+  		<div class="div-busqueda"><input type="search" name="buscador" id="search" class="buscador" placeholder = "Buscar" oninput="buscar()"></div>
+   	</center>
+    <div id="e-404">
+    <div class="d-404"><p class="p1">Cielos!</p><p class="p2">no encontramos resultados</p><img src="img/404.gif" class="e404"> <div class="d2-404"></div> </div>
+     
+    </div>
+
+       <input type="checkbox"  class="c1" id="cc1">
+       <input type="checkbox"  class="c2" id="cc2">
+       <input type="checkbox"  class="c3" id="cc3">
+       <input type="checkbox"  class="c4" id="cc4">
+       <input type="checkbox"  class="c5" id="cc5">
+       <input type="checkbox"  class="c6" id="cc6">
+       <input type="checkbox"  class="c7" id="cc7">
+       <input type="checkbox"  class="c8" id="cc8">
+       <input type="checkbox"  class="c9" id="cc9">
+       <input type="checkbox"  class="c10" id="cc10">
+
+       <input type="checkbox"  class="a1" id="ac1">
+       <input type="checkbox"  class="a2" id="ac2">
+       <input type="checkbox"  class="a3" id="ac3">
+       <input type="checkbox"  class="a4" id="ac4">
+       <input type="checkbox"  class="a5" id="ac5">
+       <input type="checkbox"  class="a6" id="ac6">
+       <input type="checkbox"  class="a7" id="ac7">
+       <input type="checkbox"  class="a8" id="ac8">
+       <input type="checkbox"  class="a9" id="ac9">
+    <div class="espacio"><br><br><br><br><br><br><br><br><br><br><br><br></div>
+       
+    
+		<div class="element-post" id="c1">
+		    <label for="cc1" ><img src="img/1.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+				<div class="descripcion">
+					<br><br><br><br><br><br><br><br><br>
+					<br><br><br><br><br><br><br><br><br>
+				</div>
+				<span>musica</span>
+        </div>
+        
+		<div class="element-post" id="c2">
+		    <label for="cc2" ><img src="img/2.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+				<br><br><br><br><br><br><br><br><br>
+				<br><br><br><br><br><br><br><br><br>
+			</div>
+			<span>musica</span>
+        </div>
+
+        <div class="element-post" id="c3">
+		    <label for="cc3" ><img src="img/3.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>musica</span>
+
+        </div>
+
+        <div class="element-post" id="c4">
+		    <label for="cc4" ><img src="img/M5_MOA.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>musica</span>
+
+        </div>
+
+        <div class="element-post" id="c5">
+		    <label for="cc5" ><img src="img/M4_WO.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>musica</span>
+
+        </div>
+
+		<div class="element-post" id="c6">
+		    <label for="cc6" ><img src="img//M8_TAQ.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>musica</span>
+
+        </div>
+
+        <div class="element-post" id="c7">
+		    <label for="cc7" ><img src="img/4.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>musica</span>
+
+        </div>
+
+        <div class="element-post" id="c8">
+		    <label for="cc8" ><img src="img/3.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>musica</span>
+
+        </div>
+
+		<div class="element-post" id="c9">
+		    <label for="cc9" ><img src="img/1.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>musica</span>
+
+        </div>
+       
+
+        <div class="element-post" id="c10">
+		    <label for="cc10" ><img src="img/3.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>musica</span>
+
+        </div>
+
+
+        <div class="element-post" id="a1">
+		    <label for="ac1" ><img src="img/A2_RYJ.png" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+				<div class="descripcion">
+					<br><br><br><br><br><br><br><br><br>
+					<br><br><br><br><br><br><br><br><br>
+				</div>
+			<span>arte</span>
+
+        </div>
+        
+		<div class="element-post" id="a2">
+		    <label for="ac2" ><img src="img/Art-8.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+				<br><br><br><br><br><br><br><br><br>
+				<br><br><br><br><br><br><br><br><br>
+			</div>
+			<span>arte</span>
+
+        </div>
+
+        <div class="element-post" id="a3">
+		    <label for="ac3" ><img src="img/A4_PV.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>arte</span>
+
+        </div>
+
+        <div class="element-post" id="a4">
+		    <label for="ac4" ><img src="img/Art-2.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>arte</span>
+
+        </div>
+
+        <div class="element-post" id="a5">
+		    <label for="ac5" ><img src="img/Art-3.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>arte</span>
+
+        </div>
+
+		<div class="element-post" id="a6">
+		    <label for="ac6" ><img src="img/Art-4.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>arte</span>
+
+        </div>
+
+        <div class="element-post" id="a7">
+		    <label for="ac7" ><img src="img/Art-5.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>arte</span>
+
+        </div>
+
+        <div class="element-post" id="a8">
+		    <label for="ac8" ><img src="img/Art-6.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>arte</span>
+
+        </div>
+
+		<div class="element-post" id="a9">
+		    <label for="ac9" ><img src="img/Art-7.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>arte</span>
+
+        </div>
+       
+
+        <div class="element-post" id="a10">
+		    <label for="ac10" ><img src="img/Art-9.jpg" class="img-post">
+			<div class="text-content">
+				<p class="text-post">Arte en el cine de terror </p>
+				<p class="text2-post"> Tag: Cine Pintura</p> 
+			</div> 
+			</label>
+			<div class="descripcion">
+			</div>
+			<span>arte</span>
+        </div>
+
+
+
+
+</section>
+
   </div>
 </body>
 </html>
+
