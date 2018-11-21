@@ -436,6 +436,7 @@ img#w1-w{
 }
 .ch-search:checked ~ .types-art{
  background-color: white;
+ display: none;
 }
   
 .ch-calendar:checked ~ .calendar-content{
