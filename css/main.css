@@ -342,6 +342,12 @@ box-shadow: -200px -200px 5px -200px rgba(0,0,0,0.75);
   
  }
 
+
+.types-art:hover ~ .top div {
+
+	background-color: black;
+} 
+
 .ch-user, .ch-search, .ch-calendar, .ch-world, .foc-icon, .b-buscador{
 	display:none;
 
@@ -373,7 +379,7 @@ img#w1-w{
 	background-color: white;
 	width: 0%;
 	height: 94%;
-	margin-top: 13.5%;
+	margin-top: 15.5%;
 	z-index: 30;
 	transition: width .3s;
 	 -webkit-transition: width .3s;
@@ -614,7 +620,7 @@ img#w1-w{
 	margin-left: 2vw;
 	position: fixed;
 	width: 6vw;
-
+	display: inherit;
 	 -webkit-transform: rotate(-90deg);
 	 -moz-transform: rotate(-90deg);
 	 -ms-transform: rotate(-90deg);
