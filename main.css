@@ -244,6 +244,7 @@ a:hover{
 	height: 10%;
 	background-color: rgb(241,243,244);	
 	transition: background-color 0.4s linear ;
+	z-index: 11;
 }
 
 
@@ -431,7 +432,7 @@ img#w1-w{
 }
 
 .ch-search:checked ~ .types-art{
- display: none;
+ background-color: white;
 }
   
 .ch-calendar:checked ~ .calendar-content{
